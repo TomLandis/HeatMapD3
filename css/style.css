@@ -8,6 +8,7 @@ rect:hover {
 }
 h2 {
   text-align: center;
+  
 }
 #heatMap {
   display: flex;
@@ -33,7 +34,7 @@ div.tooltip {
   font-family: 'Saira Semi Condensed', sans-serif;
 }
 .tempScale {
-  margin-top: -1em;
+  margin-top: -2em;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -44,7 +45,8 @@ div.tooltip {
 }
 .legendary {
   width: 8vw;
-  padding: 3px;
+  padding: 1px;
+  font-size: 0.7em;
 }
 
 .t0 {
@@ -56,12 +58,12 @@ div.tooltip {
   fill:#729fff;
 }
 .t39 {
-  background-color: #98ff96;
-  fill: #98ff96;
+  background-color: #8eb9ff;
+  fill: #8eb9ff;
 }
 .t5 {
-  background-color: #ffff63;
-  fill: #ffff63;
+  background-color: #98ff96;
+  fill: #98ff96;
 }
 
 .t61 {
@@ -70,8 +72,8 @@ div.tooltip {
 }
 
 .t72 {
-  background-color: #ffcf42;
-  fill:#ffcf42;
+  background-color: #ffff63;
+  fill:#ffff63;
 }
 .t83 {
   background-color: #f49b42;
@@ -97,4 +99,17 @@ div.tooltip {
   background-color: #840000;
   
   fill: #840000;
+}
+#details{
+  text-align: center;
+  margin-top: -1.3em;
+}
+a{
+  text-decoration: none;
+  color: skyblue;
+  background-color: white;
+  border-radius: 16%;
+}
+#credit{
+  text-align: center;
 }
